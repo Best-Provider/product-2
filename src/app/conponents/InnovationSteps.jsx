@@ -63,7 +63,7 @@ const InnovationSteps = () => {
           <div className="flex items-start space-x-4 p-6 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-700 hover:to-[#B06AB3] group">
             <div className="flex-shrink-0 p-1">
               <div className="w-10 h-10 flex items-center justify-center border-2 border-gray-800 rounded-md group-hover:border-white">
-                <FaLaptopCode className="w-6 h-6 text-gray-800 group-hover:text-white" />
+                <FaLaptopCode className="w-6 h-6 text-purple-300 group-hover:text-white" />
               </div>
             </div>
             <div>
@@ -79,7 +79,7 @@ const InnovationSteps = () => {
           <div className="flex items-start space-x-4 p-6 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-700 hover:to-[#B06AB3] group">
             <div className="flex-shrink-0 p-1">
               <div className="w-10 h-10 flex items-center justify-center border-2 border-gray-800 rounded-md group-hover:border-white">
-                <FaPlus className="w-6 h-6 text-gray-800 group-hover:text-white" />
+                <FaPlus className="w-6 h-6 text-purple-300 group-hover:text-white" />
               </div>
             </div>
             <div>
@@ -94,7 +94,7 @@ const InnovationSteps = () => {
           <div className="flex items-start space-x-4 p-6 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-700 hover:to-[#B06AB3] group">
             <div className="flex-shrink-0 p-1">
               <div className="w-10 h-10 flex items-center justify-center border-2 border-gray-800 rounded-md group-hover:border-white">
-                <FaChartLine className="w-6 h-6 text-gray-800 group-hover:text-white" />
+                <FaChartLine className="w-6 h-6 text-purple-300 group-hover:text-white" />
               </div>
             </div>
             <div>
@@ -109,7 +109,7 @@ const InnovationSteps = () => {
           <div className="flex items-start space-x-4 p-6 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-700 hover:to-[#B06AB3] group">
             <div className="flex-shrink-0 p-1">
               <div className="w-10 h-10 flex items-center justify-center border-2 border-gray-800 rounded-md group-hover:border-white">
-                <FaGift className="w-6 h-6 text-gray-800 group-hover:text-white" />
+                <FaGift className="w-6 h-6 text-purple-300 group-hover:text-white" />
               </div>
             </div>
             <div>
