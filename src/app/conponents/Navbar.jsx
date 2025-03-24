@@ -32,6 +32,8 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
           <Link href="/" className="text-yellow-400 hover:text-yellow-300">Home</Link>
+          <Link href="/ServiceSupportPage" className="text-yellow-400 hover:text-yellow-300">Service & Support</Link>
+
           <Link href="/RequestForQuote" className="text-yellow-300 hover:text-yellow-300">Contact Us</Link>
           <Link href="/About" className="text-yellow-300 hover:text-yellow-300">About Us</Link>
           {/* <Link href="/Contact" className="text-white hover:text-yellow-300">Contact Us</Link> */}
@@ -67,6 +69,8 @@ const Navbar = () => {
       {isMenuOpen && (
         <div className="md:hidden bg-gray-900 py-4 px-4">
           <Link href="/" className="block text-yellow-400 py-2">Home</Link>
+          <Link href="/ServiceSupportPage" className="block text-yellow-400 py-2">Service & Support</Link>
+
           <Link href="/About" className="block text-white py-2">About Us</Link>
           <Link href="/RequestForQuote" className="block text-white py-2">Contact Us</Link>
         </div>
