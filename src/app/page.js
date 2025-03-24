@@ -8,6 +8,7 @@ import CorporateWebsiteComponent from "./conponents/CorporateWebsiteComponent";
 import SeventhGeniusFooter from "./conponents/SeventhGeniusFooter";
 
 export default function Home() {
+
   const velocity = 100;
   return (
     <>
@@ -39,7 +40,7 @@ export default function Home() {
 
       <div className="mt-30">
         <ScrollVelocity
-          texts={["Fuelling Innovation", "SElevating Success"]}
+          texts={["SparewarePro", "SparewarePro"]}
           velocity={velocity}
           className="custom-scroll-text"
         />

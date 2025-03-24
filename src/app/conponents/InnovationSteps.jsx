@@ -14,13 +14,13 @@ const InnovationSteps = () => {
       </div>
       
       {/* Main Content */}
-      <div className="container mx-auto relative z-10">
+      <div className="container text-purple-300 mx-auto relative z-10">
         {/* Heading Section */}
-        <div className="text-center mb-16">
+        <div className="text-center text-purple-300 mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            Bring <span className="text-teal-600">Innovation</span> to Your Company
+            Bring <span className="text-purple-300">Innovation</span> to Your Company
           </h2>
-          <p className="text-gray-600 max-w-3xl mx-auto">
+          <p className="text-purple-300 max-w-3xl mx-auto">
             Let's start the journey towards success and enhance revenue for your business.
             Take your company to the next level.
           </p>
@@ -33,12 +33,12 @@ const InnovationSteps = () => {
           <div className="flex items-start space-x-4 p-6 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-700 hover:to-[#B06AB3] group">
             <div className="flex-shrink-0 p-1">
               <div className="w-10 h-10 flex items-center justify-center border-2 border-gray-800 rounded-md group-hover:border-white">
-                <FaCog className="w-6 h-6 text-gray-800 group-hover:text-white" />
+                <FaCog className="w-6 h-6 text-purple-300 group-hover:text-white" />
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-white">Define Goals</h3>
-              <p className="text-gray-600 group-hover:text-white">
+              <h3 className="text-xl text-purple-300 font-bold mb-2 group-hover:text-white">Define Goals</h3>
+              <p className="text-purple-300 group-hover:text-white">
                 Set clear innovation objectives for business growth.
               </p>
             </div>
@@ -47,13 +47,13 @@ const InnovationSteps = () => {
           {/* Step 2 */}
           <div className="flex items-start space-x-4 p-6 rounded-lg transition-all duration-300 hover:bg-gradient-to-r hover:from-blue-700 hover:to-[#B06AB3] group">
             <div className="flex-shrink-0 p-1">
-              <div className="w-10 h-10 flex items-center justify-center border-2 border-gray-800 rounded-md group-hover:border-white">
-                <FaPaintBrush className="w-6 h-6 text-gray-800 group-hover:text-white" />
+              <div className="w-10 h-10 flex items-center justify-center border-2 text-purple-300 rounded-md group-hover:border-white">
+                <FaPaintBrush className="w-6 h-6 text-purple-300 group-hover:text-white" />
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-white">Cultivate Creativity</h3>
-              <p className="text-gray-600 group-hover:text-white">
+              <h3 className="text-xl text-purple-300 font-bold mb-2 group-hover:text-white">Cultivate Creativity</h3>
+              <p className="text-purple-300 group-hover:text-white">
                 Foster a culture that encourages fresh ideas.
               </p>
             </div>
@@ -67,8 +67,8 @@ const InnovationSteps = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-white">Invest in R&D</h3>
-              <p className="text-gray-600 group-hover:text-white">
+              <h3 className="text-xl text-purple-300 font-bold mb-2 group-hover:text-white">Invest in R&D</h3>
+              <p className="text-purple-300 group-hover:text-white">
                 Allocate resources for new solutions and improvements.
               </p>
             </div>
@@ -83,8 +83,8 @@ const InnovationSteps = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-white">Implement Agile Methods</h3>
-              <p className="text-gray-600 group-hover:text-white">
+              <h3 className="text-xl text-purple-300 font-bold mb-2 group-hover:text-white">Implement Agile Methods</h3>
+              <p className="text-purple-300 group-hover:text-white">
                 Adopt flexible processes to adapt quickly.
               </p>
             </div>
@@ -98,8 +98,8 @@ const InnovationSteps = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-white">Embrace Technology & Partnerships</h3>
-              <p className="text-gray-600 group-hover:text-white">
+              <h3 className="text-xl text-purple-300 font-bold mb-2 group-hover:text-white">Embrace Technology & Partnerships</h3>
+              <p className="text-purple-300 group-hover:text-white">
                 Leverage tech and collaborations for innovation.
               </p>
             </div>
@@ -113,8 +113,8 @@ const InnovationSteps = () => {
               </div>
             </div>
             <div>
-              <h3 className="text-xl font-bold mb-2 group-hover:text-white">Measure & Adapt</h3>
-              <p className="text-gray-600 group-hover:text-white">
+              <h3 className="text-xl text-purple-300 font-bold mb-2 group-hover:text-white">Measure & Adapt</h3>
+              <p className="text-purple-300 group-hover:text-white">
                 Track progress and refine strategies for success.
               </p>
             </div>

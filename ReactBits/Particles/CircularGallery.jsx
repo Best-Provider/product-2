@@ -329,18 +329,18 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `/img1.jpg`, text: 'Bridge' },
-      { image: `/img2.jpg`, text: 'Desk Setup' },
-      { image: `/img3.jpg`, text: 'Waterfall' },
-      { image: `/img4.png`, text: 'Strawberries' },
-      { image: `/img5.png`, text: 'Deep Diving' },
-      { image: `/img6.png`, text: 'Train Track' },
-      { image: `/img7.png`, text: 'Santorini' },
-      { image: `/img8.png`, text: 'Blurry Lights' },
-      { image: `/img3.png`, text: 'New York' },
-      { image: `/img4.png`, text: 'Good Boy' },
-      { image: `/img4.png`, text: 'Coastline' },
-      { image: `/img4.png`, text: "Palm Trees" }
+      { image: `/products/00V7590.png`, text: '00V7590' },
+      { image: `/products/00VJ940.png`, text: '00VJ940' },
+      { image: `/products/0Y5M7N.png`, text: '0Y5M7N' },
+      { image: `/products/0Y577J.png`, text: '0Y577J' },
+      { image: `/products/01DC472.png`, text: '01DC472' },
+      { image: `/products/01EJ587.png`, text: '01EJ587' },
+      { image: `/products/01LU576.png`, text: '01LU576' },
+      { image: `/products/01NN111.png`, text: '01NN111' },
+      { image: `/products/01PL041.png`, text: '01PL041' },
+      { image: `/products/4J0A2AA.png`, text: '4J0A2AA' },
+      // { image: `/products/00V7590.png`, text: 'Coastline' },
+      // { image: `/products/00V7590.png`, text: "Palm Trees" }
     ]
     const galleryItems = items && items.length ? items : defaultItems
     this.mediasImages = galleryItems.concat(galleryItems)

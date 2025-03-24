@@ -32,17 +32,17 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-6">
           <Link href="/" className="text-yellow-400 hover:text-yellow-300">Home</Link>
-          <Link href="/RequestForQuote" className="text-white hover:text-yellow-300">Contact Us</Link>
-          <Link href="/About" className="text-white hover:text-yellow-300">About Us</Link>
+          <Link href="/RequestForQuote" className="text-yellow-300 hover:text-yellow-300">Contact Us</Link>
+          <Link href="/About" className="text-yellow-300 hover:text-yellow-300">About Us</Link>
           {/* <Link href="/Contact" className="text-white hover:text-yellow-300">Contact Us</Link> */}
 
         </div>
 
         {/* Contact Button */}
         <div className="hidden md:block">
-          <Link href="/contact">
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-2 px-6 rounded">
-              Contact Us
+          <Link href="/RequestForQuote">
+            <button className="bg-yellow-500 hover:bg-yellow-600 text-yellow-300 font-bold py-2 px-6 rounded">
+              Request For Quote
             </button>
           </Link>
         </div>

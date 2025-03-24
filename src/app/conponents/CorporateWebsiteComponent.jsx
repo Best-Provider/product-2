@@ -19,18 +19,18 @@ const CorporateWebsiteComponent = () => {
             <p className="text-purple-200 font-medium">Corporate Exercise</p>
           </div>
           
-          <h2 className="text-4xl font-bold mb-6 text-purple-200">Who we are?</h2>
+          <h2 className="text-4xl font-bold mb-6 text-purple-200">Who We Are?</h2>
           
           <div className="space-y-4">
             <p className="text-purple-200">
-              Established in 2016, Seventh Genius is a leading provider of ICT Solutions to USA Government Sector and Private Sector organizations of all sizes.
+            Founded in 2016, Spareware Pro is a premier ICT solutions provider, serving both government and private sector organizations across the USA. We cater to businesses of all sizes, delivering cutting-edge technology tailored to their unique needs.
             </p>
             
             <p className="text-purple-200">
-              Seventh Genius is lasting true impact on the way IT is sold, providing a full circular procurement cycle to new and existing customers, for the good of the environment and future generations. By taking ownership of its customers' technology journey, Seventh Genius enables organizations to concentrate on what they do best -
+            At Spareware Pro, we’re revolutionizing IT procurement with a sustainable, full-cycle approach—ensuring efficiency while minimizing environmental impact. Our end-to-end solutions empower clients to focus on their core operations, while we handle their technology roadmap with expertise and innovation. -
             </p>
             
-            <button className="mt-6 bg-white text-blue-700 px-6 py-3 rounded-full hover:bg-gray-100 transition">
+            <button className="mt-6 bg-white text-white bg-gradient-to-r from-purple-500 to-purple-900 px-6 py-3 rounded-full hover:bg-gray-100 transition">
               Read More
             </button>
           </div>
@@ -43,16 +43,16 @@ const CorporateWebsiteComponent = () => {
         <div className="w-full md:w-1/2 p-6 text-center bg-none">
           <div className="flex items-center justify-center space-x-2 mb-2 mt-[200px]">
             <div className="h-5 w-5 rounded-full bg-white"></div>
-            <p className="text-purple-200 font-medium">We Provide</p>
+            <p className="text-purple-200 font-medium">What We Offer</p>
           </div>
           
-          <h2 className="text-4xl font-bold mb-6 text-purple-200">Easy Payment System</h2>
+          <h2 className="text-4xl font-bold mb-6 text-purple-200">Hassle-Free Payment Solutions</h2>
           
           <p className="text-purple-200">
-            Everything we do at Seventh Genius is underpinned by our core values, which ensure we provide the highest quality service and support, and always do what's best for our customers, employees and partners, as well as the rest of the global community.
+          At Spareware Pro, our foundation is built on integrity, innovation, and customer-first values. We are committed to delivering top-tier service and support, ensuring the best outcomes for our clients, team, and partners—while contributing positively to a sustainable future.
           </p>
           
-          <button className="mt-6 bg-white text-blue-700 px-6 py-3 rounded-full hover:bg-gray-100 transition">
+          <button className="mt-6 text-white   bg-gradient-to-r from-purple-500 to-purple-900 px-6 py-3 rounded-full hover:bg-gray-100 transition">
             Read More
           </button>
         </div>
