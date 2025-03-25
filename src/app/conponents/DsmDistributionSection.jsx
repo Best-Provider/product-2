@@ -1,11 +1,48 @@
+"use client"
 import React from "react";
 import Link from "next/link";
+import { motion, useInView } from 'framer-motion';
 
 const DsmDistributionSection = () => {
+  const ref = React.useRef(null);
+    const isInView = useInView(ref, { once: true, amount: 0.3 });
+  
+    const containerVariants = {
+      hidden: { opacity: 0, scale: 0.9 },
+      visible: { 
+        opacity: 1, 
+        scale: 1,
+        transition: {
+          duration: 0.6,
+          ease: "easeOut",
+          staggerChildren: 0.2
+        }
+      }
+    };
+  
+    const itemVariants = {
+      hidden: { opacity: 0, y: 50 },
+      visible: { 
+        opacity: 1, 
+        y: 0,
+        transition: {
+          duration: 0.5,
+          ease: "easeOut"
+        }
+      }
+    };
   return (
+       <motion.div 
+        ref={ref}
+        initial="hidden"
+        animate={isInView ? "visible" : "hidden"}
+        variants={containerVariants}
+        className="w-full py-16 px-4 bg-none relative overflow-hidden"
+      >
     <div className="w-full bg-none py-16 mt-20">
       <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row items-center">
         {/* Left content section */}
+        
         <div className="md:w-1/2 mb-8 md:mb-0">
           <h2 className="text-4xl md:text-5xl font-bold text-red-400 mb-6">
             Who We Are?
@@ -45,6 +82,7 @@ const DsmDistributionSection = () => {
         </div>
       </div>
     </div>
+    </motion.div>
   );
 };
 
