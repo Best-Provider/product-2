@@ -104,7 +104,7 @@ export const ScrollVelocity = ({
     for (let i = 0; i < (numCopies ?? 1); i++) {
       spans.push(
         <span
-          className={`flex-shrink-0 bg-gradient-to-r from-purple-500 to-purple-900 bg-clip-text text-transparent ${className}`}
+          className={`flex-shrink-0 bg-gradient-to-r from-red-500 to-red-900 bg-clip-text text-transparent ${className}`}
           key={i}
           ref={i === 0 ? copyRef : null}
         >

@@ -17,7 +17,7 @@ const page = () => {
         />
         
         {/* Navbar on top of particles */}
-        <div className="relative z-10">
+        <div className="relative z-50">
           <Navbar />
         </div>
 
@@ -31,7 +31,7 @@ const page = () => {
           />
           
           {/* Contact Text */}
-          <div className="relative mt-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-purple-300 bg-none bg-opacity-30 px-6 py-3 rounded-lg shadow-lg">
+          <div className="relative mt-20 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-5xl font-bold text-red-300 bg-none bg-opacity-30 px-6 py-3 rounded-lg shadow-lg">
             Contact Us
           </div>
         </div>

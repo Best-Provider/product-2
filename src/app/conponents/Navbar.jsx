@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import 'animate.css';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed w-full top-0 left-0  text-white z-50">
+    <nav className="fixed w-full top-0 left-0  text-white z-50 animate__animated animate__bounceInDown">
       <div className="container mx-auto px-4 py-2 flex justify-between items-center">
         {/* Logo */}
         <div className="flex items-center">
@@ -43,7 +44,7 @@ const Navbar = () => {
         {/* Contact Button */}
         <div className="hidden md:block">
           <Link href="/RequestForQuote">
-            <button className="bg-yellow-500 hover:bg-yellow-600 text-yellow-300 font-bold py-2 px-6 rounded">
+            <button className="bg-red-500 hover:bg-red-600 text-yellow-300 font-bold py-2 px-6 rounded">
               Request For Quote
             </button>
           </Link>
@@ -67,12 +68,12 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-gray-900 py-4 px-4">
+        <div className="md:hidden bg-gray-900 py-4 px-4 z-50">
           <Link href="/" className="block text-yellow-400 py-2">Home</Link>
           <Link href="/ServiceSupportPage" className="block text-yellow-400 py-2">Service & Support</Link>
 
-          <Link href="/About" className="block text-white py-2">About Us</Link>
-          <Link href="/RequestForQuote" className="block text-white py-2">Contact Us</Link>
+          <Link href="/About" className="block text-yellow-400 py-2">About Us</Link>
+          <Link href="/RequestForQuote" className="block text-yellow-400 py-2">Contact Us</Link>
         </div>
       )}
     </nav>

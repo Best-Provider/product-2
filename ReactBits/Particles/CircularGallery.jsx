@@ -329,7 +329,7 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `/products/00V7590.png`, text: '00V7590' },
+      { image: `/img1.jpg`, text: '00V7590' },
       { image: `/products/00VJ940.png`, text: '00VJ940' },
       { image: `/products/0Y5M7N.png`, text: '0Y5M7N' },
       { image: `/products/0Y577J.png`, text: '0Y577J' },

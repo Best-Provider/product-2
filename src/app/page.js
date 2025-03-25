@@ -7,6 +7,7 @@ import CircularGallery from "../../ReactBits/Particles/CircularGallery";
 import CorporateWebsiteComponent from "./conponents/CorporateWebsiteComponent";
 import SeventhGeniusFooter from "./conponents/SeventhGeniusFooter";
 
+
 export default function Home() {
 
   const velocity = 100;

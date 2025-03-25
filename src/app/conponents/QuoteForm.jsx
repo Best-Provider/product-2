@@ -140,7 +140,7 @@ const QuoteForm = () => {
 
         <button
           type="submit"
-          className="w-full bg-yellow-500 hover:bg-yellow-600 text-black font-medium py-3 px-4 rounded-full flex items-center justify-center"
+          className="w-full bg-red-500 hover:bg-red-600 text-black font-medium py-3 px-4 rounded-full flex items-center justify-center"
         >
           Send Message
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
