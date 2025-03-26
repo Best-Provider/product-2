@@ -329,16 +329,25 @@ class App {
   }
   createMedias(items, bend = 1, textColor, borderRadius, font) {
     const defaultItems = [
-      { image: `/img1.jpg`, text: '00V7590' },
-      { image: `/products/00VJ940.png`, text: '00VJ940' },
-      { image: `/products/0Y5M7N.png`, text: '0Y5M7N' },
-      { image: `/products/0Y577J.png`, text: '0Y577J' },
-      { image: `/products/01DC472.png`, text: '01DC472' },
-      { image: `/products/01EJ587.png`, text: '01EJ587' },
-      { image: `/products/01LU576.png`, text: '01LU576' },
-      { image: `/products/01NN111.png`, text: '01NN111' },
-      { image: `/products/01PL041.png`, text: '01PL041' },
-      { image: `/products/4J0A2AA.png`, text: '4J0A2AA' },
+      // { image: `/img1.jpg`, text: '00V7590' },
+      // { image: `/products/00VJ940.png`, text: '00VJ940' },
+      // { image: `/products/0Y5M7N.png`, text: '0Y5M7N' },
+      // { image: `/products/0Y577J.png`, text: '0Y577J' },
+      // { image: `/products/01DC472.png`, text: '01DC472' },
+      // { image: `/products/01EJ587.png`, text: '01EJ587' },
+      // { image: `/products/01LU576.png`, text: '01LU576' },
+      // { image: `/products/01NN111.png`, text: '01NN111' },
+      // { image: `/products/01PL041.png`, text: '01PL041' },
+      // { image: `/products/4J0A2AA.png`, text: '4J0A2AA' },
+
+      { image: `/image3.jpg`, text: '4J0A2AA' },
+      { image: `/image4.jpg`, text: '4J0A2AA' },
+      { image: `/image5.jpg`, text: '4J0A2AA' },
+      { image: `/image6.jpg`, text: '4J0A2AA' },
+      { image: `/image7.jpg`, text: '4J0A2AA' },
+      { image: `/image8.jpg`, text: '4J0A2AA' },
+
+
       // { image: `/products/00V7590.png`, text: 'Coastline' },
       // { image: `/products/00V7590.png`, text: "Palm Trees" }
     ]

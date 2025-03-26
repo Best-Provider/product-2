@@ -27,7 +27,7 @@ const Page = () => {
       <main className="flex-grow">
         {/* Aurora/Particles Component (in the background) */}
         <div className="absolute inset-0 z-0">
-          <Aurora />
+          {/* <Aurora /> */}
         </div>
      
         

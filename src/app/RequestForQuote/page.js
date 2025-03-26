@@ -9,12 +9,12 @@ const page = () => {
     <>
       <div className="w-full min-h-screen relative">
         {/* Aurora/Particles Component (in the background) */}
-        <Aurora
+        {/* <Aurora
           colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
           blend={0.5}
           amplitude={1.0}
           speed={0.5}
-        />
+        /> */}
         
         {/* Navbar on top of particles */}
         <div className="relative z-50">
@@ -22,7 +22,7 @@ const page = () => {
         </div>
 
         {/* Map Image and Contact Text */}
-        <div className="relative z-15 text-center mt-5">
+        <div className="relative z-15 text-center mt-50">
           {/* Map Image */}
           <img 
             src="/map.png" // Replace with your map image path

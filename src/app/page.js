@@ -16,12 +16,12 @@ export default function Home() {
       <Navbar />
       <div style={{ width: "100%", height: "100vh", position: "relative" }}>
         {/* Particles Component (in the background) */}
-        <Aurora
+        {/* <Aurora
           colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
           blend={0.5}
           amplitude={1.0}
           speed={0.5}
-        />
+        /> */}
 
         {/* Hero Section (positioned above particles with z-index) */}
         <div
@@ -33,6 +33,7 @@ export default function Home() {
             height: "100%",
             zIndex: 10,
           }}
+          
         >
           <HeroSection />
         </div>
