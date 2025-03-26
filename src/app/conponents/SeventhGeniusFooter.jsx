@@ -39,7 +39,7 @@ const SeventhGeniusFooter = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="flex items-center text-red-300">
+              <a href="/About" className="flex items-center text-red-300">
                 <Check size={18} className="text-red-300 mr-2" /> About Us
               </a>
             </li>
