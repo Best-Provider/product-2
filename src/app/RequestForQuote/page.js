@@ -1,8 +1,10 @@
+"use client"
 import React from "react";
 import Navbar from "../conponents/Navbar";
 import Aurora from "../../../ReactBits/Particles/Aurora";
 import SeventhGeniusFooter from "../conponents/SeventhGeniusFooter";
 import QuoteForm from "../conponents/QuoteForm";
+import TiltedCard from '../../../ReactBits/tiltedCard';
 
 const page = () => {
   return (
@@ -27,7 +29,7 @@ const page = () => {
           <img 
             src="/map.png" // Replace with your map image path
             alt="Map"
-            className="w-full max-w-4xl h-auto mx-auto"
+            className="w-full max-w-4xl h-auto mx-auto rounded-2xl"
           />
           
           {/* Contact Text */}

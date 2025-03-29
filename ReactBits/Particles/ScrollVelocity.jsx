@@ -32,10 +32,10 @@ export const ScrollVelocity = ({
   texts = [],
   velocity = 100,
   className = "",
-  damping = 50,
-  stiffness = 400,
+  damping = 30, // Reduced damping for smoother motion
+  stiffness = 200, // Reduced stiffness for smoother motion
   numCopies = 6,
-  velocityMapping = { input: [0, 1000], output: [0, 5] },
+  velocityMapping = { input: [0, 500], output: [0, 3] }, // Adjusted for smoother response
   parallaxClassName,
   scrollerClassName,
   parallaxStyle,
@@ -62,13 +62,13 @@ export const ScrollVelocity = ({
     const { scrollY } = useScroll(scrollOptions);
     const scrollVelocity = useVelocity(scrollY);
     const smoothVelocity = useSpring(scrollVelocity, {
-      damping: damping ?? 50,
-      stiffness: stiffness ?? 400,
+      damping: damping ?? 30,
+      stiffness: stiffness ?? 200,
     });
     const velocityFactor = useTransform(
       smoothVelocity,
-      velocityMapping?.input || [0, 1000],
-      velocityMapping?.output || [0, 5],
+      velocityMapping?.input || [0, 500],
+      velocityMapping?.output || [0, 3],
       { clamp: false }
     );
 
@@ -96,8 +96,12 @@ export const ScrollVelocity = ({
         directionFactor.current = 1;
       }
 
-      moveBy += directionFactor.current * moveBy * velocityFactor.get();
-      baseX.set(baseX.get() + moveBy);
+      // Smoother velocity application
+      const velocityEffect = velocityFactor.get();
+      moveBy += directionFactor.current * moveBy * Math.min(velocityEffect, 3); // Capped effect
+      
+      // Smooth acceleration/deceleration
+      baseX.set(baseX.get() + moveBy * 0.7); // Reduced multiplier for smoother motion
     });
 
     const spans = [];
@@ -120,7 +124,11 @@ export const ScrollVelocity = ({
       >
         <motion.div
           className={`${scrollerClassName} flex text-center font-sans text-4xl font-bold tracking-[-0.02em] drop-shadow md:text-[5rem] md:leading-[5rem]`}
-          style={{ x, ...scrollerStyle }}
+          style={{ 
+            x, 
+            willChange: 'transform', // Added for performance
+            ...scrollerStyle 
+          }}
         >
           {spans}
         </motion.div>
@@ -129,7 +137,7 @@ export const ScrollVelocity = ({
   }
 
   return (
-    <section>
+    <section className="overflow-hidden">
       {texts.map((text, index) => (
         <VelocityText
           key={index}
